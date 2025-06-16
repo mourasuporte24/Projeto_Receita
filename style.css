@@ -16,7 +16,7 @@ body{
 
     background-image: url(assets/bg-image.jpg);
     background-size: cover;
-    padding: 24px;
+    padding: 24px 24px 10px 24px;
  
     
 }
@@ -27,13 +27,21 @@ body{
     padding: 24px;
     background-color:#F0E8C2;
     border-radius: 24px;
-    margin: 4px auto;
+    margin: 24px auto;
+
 }
+
+p{
+    font-size: 1em;
+}
+
+
 
 
 #about p + p{
 
     margin-top: 4px;
+   
 
 }
 
@@ -74,5 +82,20 @@ h1,h2{
 
     color: #291B1A;
     margin-bottom: 4px;
+    line-height: 150%;
 }
 
+footer{
+
+    font-size: 24px;
+    color: darkred;
+    text-align: center;
+    
+}
+
+footer img{
+    vertical-align:top;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 24px;
+}
