@@ -1,3 +1,52 @@
-img{
-    border-radius: 16px;
+
+:root{
+
+     font-family: "Alice", serif;
+     font-style: normal;
+     color:#573A37
 }
+
+body{
+
+    background-image: url(assets/bg-image.jpg);
+    background-size: cover;
+    padding: 24px;
+ 
+    
+}
+
+#page{
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color:#F0E8C2;
+    border-radius: 24px;
+    margin: 48px auto;
+}
+
+
+img{
+    box-sizing: border-box;
+    border-radius: 32px;
+    width: 752px;
+    height: 400px;
+    align-content: center;
+    padding: 20px;
+}
+
+
+h1{
+    line-height: 140%;
+    font-size: 40px;
+}
+
+h2{
+  line-height: 150%;
+  font-size: 40px;
+
+}
+h1,h2{
+
+    color: #291B1A;
+}
+
